@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="400" viewBox="0 0 2000 400">
+  <!-- Warm espresso and caramel texture shown through the "Hi, I'm Luca." heading. Swap for a photo any time. -->
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3B2A20"/>
+      <stop offset="0.5" stop-color="#4A3226"/>
+      <stop offset="1" stop-color="#3B2A20"/>
+    </linearGradient>
+    <radialGradient id="a" cx="0.14" cy="0.55" r="0.16" gradientTransform="translate(0.14 0.55) scale(1 4) translate(-0.14 -0.55)">
+      <stop offset="0" stop-color="#C98B5E"/>
+      <stop offset="1" stop-color="#C98B5E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="0.42" cy="0.4" r="0.15" gradientTransform="translate(0.42 0.4) scale(1 4) translate(-0.42 -0.4)">
+      <stop offset="0" stop-color="#A8653E"/>
+      <stop offset="1" stop-color="#A8653E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="c" cx="0.66" cy="0.6" r="0.14" gradientTransform="translate(0.66 0.6) scale(1 4) translate(-0.66 -0.6)">
+      <stop offset="0" stop-color="#D9A877"/>
+      <stop offset="1" stop-color="#D9A877" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="d" cx="0.88" cy="0.45" r="0.15" gradientTransform="translate(0.88 0.45) scale(1 4) translate(-0.88 -0.45)">
+      <stop offset="0" stop-color="#B8734A"/>
+      <stop offset="1" stop-color="#B8734A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.1"/></feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="2000" height="400" fill="url(#base)"/>
+  <rect width="2000" height="400" fill="url(#a)"/>
+  <rect width="2000" height="400" fill="url(#b)"/>
+  <rect width="2000" height="400" fill="url(#c)"/>
+  <rect width="2000" height="400" fill="url(#d)"/>
+  <rect width="2000" height="400" filter="url(#grain)"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- "L." monogram: espresso tile, cream letter, caramel full stop (echoes "Hi, I'm Luca.") -->
+  <rect width="64" height="64" rx="14" fill="#3B2A20"/>
+  <path d="M17 14h12v28h17v9H17z" fill="#EFE4D0"/>
+  <circle cx="51.5" cy="46.5" r="4.5" fill="#C98B5E"/>
+</svg>
